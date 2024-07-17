@@ -7,10 +7,8 @@ on:
       build:
         name: Start Building...
         runs-on: windows-latest
-
-        timeout-minutes:9999
-
-        steps:
+         timeout-minutes:9999
+          steps:
         name: Downloading & Installing Essentials
         run: |
          Invoke-WebRequest -Url "https://gitlab.com/chamod12/1m win-
